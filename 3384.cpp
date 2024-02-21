@@ -10,7 +10,7 @@ using namespace std;
 // int main() {
 //     scanf("%s", pre);
 //     int top = 0;
-//     for (int i = 0; i < pre.len; i++) {//i < pre.len()错误，不能用len()函数
+//     for (int i = 0; i < pre.length(); i++) {//i < pre.len()错误，不能用len()函数
 //         if (pre[i] == '#') {
 //             cout << in[top--] << ' ';
 //         } else {
@@ -40,3 +40,4 @@ int main() {
     dfs();
     return 0;
 }
+//数组不能调用函数.length()，字符串可以
