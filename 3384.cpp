@@ -41,3 +41,4 @@ int main() {
     return 0;
 }
 //数组不能调用函数.length()，字符串可以
+//数组能计算长度，通过 int length = sizeof(arr) / sizeof(arr[0]);
