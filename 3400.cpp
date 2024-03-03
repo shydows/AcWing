@@ -6,6 +6,8 @@
 // 第二位'1'，小于2，'2'在该数位上共出现 3*100
 // 第三位'2'，等于2，'2'在该数位上共出现 31*10+（4+1）
 // 第三位'4'，大于2，'2'在该数位上共出现 （312+1）*1
+
+//https://www.acwing.com/problem/content/3403/
 #include <iostream>
 #include <cstring>
 

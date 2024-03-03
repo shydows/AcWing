@@ -7,6 +7,7 @@
 // 所以必须使用逆序，保证f[4]是没有加入新物品前，背包里的最优解。
 //完全背包问题：https://www.acwing.com/problem/content/3/
 
+//https://www.acwing.com/problem/content/3385/
 #include <iostream>
 
 using namespace std;

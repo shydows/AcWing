@@ -19,6 +19,7 @@
 // 所以 N_{m} = N % ( k - 1 ); 最终答案就是求N对k-1的模。
 // 边界问题，如果 N == k - 1的时候，N % (k-1) === 0；所以res为0的时候正确答案是k-1；
 
+//https://www.acwing.com/problem/content/3391/
 #include <cstring>
 #include <iostream>
 #include <algorithm>
